@@ -67,3 +67,30 @@ console.log(string)*/
 /*var a = 2
 console.log(a*1000)
 console.log(a*100000)*/
+
+
+
+
+
+
+//function task ------------------------------------------
+
+
+/*function addfive(num){
+    console.log(num+5)       //Relative function
+}
+
+/*const addfive=function(num){    //expression function
+    console.log(num+5)
+}*/
+
+//const addfive=(num)=>console.log(num+5)   //arrow function
+
+/*addfive(5);
+addfive(0);
+addfive(-5);*/
+
+//---------------------------------------
+
+
+
