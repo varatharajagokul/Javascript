@@ -77,20 +77,59 @@ console.log(a*100000)*/
 
 
 /*function addfive(num){
-    console.log(num+5)       //Relative function
+    console.log(num+5)       //declaration function
 }
 
-/*const addfive=function(num){    //expression function
+const addfive=function(num){    //expression function
     console.log(num+5)
-}*/
+}
 
-//const addfive=(num)=>console.log(num+5)   //arrow function
+const addfive=(num)=>console.log(num+5)  //arrow function
 
-/*addfive(5);
+addfive(5);
 addfive(0);
 addfive(-5);*/
 
 //---------------------------------------
 
 
+//oops
 
+class student{
+    constructor(){
+        console.log("i am constructor")
+    }
+    studentname(){
+        console.log("studentname")
+    }
+    studentage(){
+        console.log("studentage")
+
+    }   
+}
+
+class teacher extends student{
+    constructor(){
+        super()
+        console.log("i am teacher")
+    }
+    studentpresent(){
+        console.log("presented")
+    }
+    studentabsent(){
+        console.log("absent")
+
+    }   
+}
+
+
+const tea=new teacher()
+
+tea.studentabsent()
+tea.studentage()
+tea.studentname()
+tea.studentpresent()
+
+for(i=1;i<=10;i++){
+    console.log(i*2)
+}
