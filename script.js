@@ -95,41 +95,120 @@ addfive(-5);*/
 
 //oops
 
-class student{
-    constructor(){
-        console.log("i am constructor")
-    }
-    studentname(){
-        console.log("studentname")
-    }
-    studentage(){
-        console.log("studentage")
+//class student
+//     constructor(){
+//         console.log("i am constructor")
+//     }
+//     studentname(){
+//         console.log("studentname")
+//     }
+//     studentage(){
+//         console.log("studentage")
 
-    }   
-}
+//     }   
+// }
 
-class teacher extends student{
-    constructor(){
-        super()
-        console.log("i am teacher")
-    }
-    studentpresent(){
-        console.log("presented")
-    }
-    studentabsent(){
-        console.log("absent")
+// class teacher extends student{
+//     constructor(){
+//         super()
+//         console.log("i am teacher")
+//     }
+//     studentpresent(){
+//         console.log("presented")
+//     }
+//     studentabsent(){
+//         console.log("absent")
 
-    }   
-}
+//     }   
+// }
 
 
-const tea=new teacher()
+//const tea=new teacher()
 
-tea.studentabsent()
-tea.studentage()
-tea.studentname()
-tea.studentpresent()
+// tea.studentabsent()
+// tea.studentage()
+// tea.studentname()
+// tea.studentpresent()
 
-for(i=1;i<=10;i++){
-    console.log(i*2)
-}
+// for(i=1;i<=10;i++){
+//     console.log(i*2)
+// }
+
+// class teacher{
+//     constructor(){
+//         console.log("i am teacher")
+//     }
+//     student1(){
+//         console.log("Gokul")
+//     }
+//     student2(){
+//         console.log("Ram")
+//     }
+// }
+
+// class student extends teacher{
+//     constructor(){
+//         super()
+//         console.log("Student attendance")
+//     }
+//     studentGokul(){
+//         console.log("Presented")
+//     }
+//     studentram(){
+//         console.log("absent")
+//     }
+
+// }
+
+// const stud=new student()
+
+// stud.student1()
+// stud.student2()
+// stud.studentGokul()
+// stud.studentram()
+
+// function calcage(birthyear,firstname,lastname){                    ---------------------------------Declartion function
+//     const age=2000-birthyear;
+//     console.log(`${firstname}${lastname}is${age}years old`);
+//     return age;
+// }
+
+// const age=calcage(2000,"gokul","mendoza")
+
+// const calcage=function(birthyear,firstname,lastname){               ----------------------------------Expression function
+//     const age=2000-birthyear;
+//     console.log(`${firstname}${lastname}is${age}yearsold`);
+//     return age;
+// }
+
+// const age=calcage(2000,'gokul',"mendoza")
+
+        // -----------------------------------------------------------------
+
+// var min = 5;
+
+// function toSeconds(min) {
+//     console.log(min*60)
+// }
+// var secs = toSeconds(min)
+
+            // ------------------------------------------------
+
+// var myint = -3;
+// function nextNumber(myint){
+//         console.log(myint+1)
+// }
+
+// var myNextint = nextNumber(myint)
+
+// -----------------------------------------------------------------
+
+// var hour=[24];
+
+// function hourtoseconds(hour){
+//     console.log(hour*3600)
+// }
+// var data=hourtoseconds(hour)
+
+// ----------------------------------------------------------------------
+
